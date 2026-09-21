@@ -1,0 +1,39 @@
+# ---- model weights: never commit ----
+models/
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.gguf
+
+# ---- audio: generated output and voice samples ----
+# Voice recordings are biometric data. Keep them out of git.
+out/
+out[0-9]/
+voice_samples/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+
+# ---- generated comparison pages (several MB each, audio embedded) ----
+compare*.html
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- logs and scratch ----
+*.log
+*.tmp
+tmp/
+
+.DS_Store

@@ -1,0 +1,140 @@
+    def generate_voice_design(
+        self,
+        text: Union[str, List[str]],
+        instruct: Union[str, List[str]],
+        language: Union[str, List[str]] = None,
+        non_streaming_mode: bool = True,
+        **kwargs,
+    ) -> Tuple[List[np.ndarray], int]:
+        """
+        Generate speech with the VoiceDesign model using natural-language style instructions.
+
+        Args:
+            text:
+                Text(s) to synthesize.
+            language:
+                Language(s) for each sample.
+            instruct:
+                Instruction(s) describing desired voice/style. Empty string is allowed (treated as no instruction).
+            non_streaming_mode:
+                Using non-streaming text input, this option currently only simulates streaming text input when set to `false`, 
+                rather than enabling true streaming input or streaming generation.
+            do_sample:
+                Whether to use sampling, recommended to be set to `true` for most use cases.
+            top_k:
+                Top-k sampling parameter.
+            top_p:
+                Top-p sampling parameter.
+            temperature:
+                Sampling temperature; higher => more random.
+            repetition_penalty:
+                Penalty to reduce repeated tokens/codes.
+            subtalker_dosample:
+                Sampling switch for the sub-talker (only valid for qwen3-tts-tokenizer-v2) if applicable.
+            subtalker_top_k:
+                Top-k for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_top_p:
+                Top-p for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_temperature:
+                Temperature for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            max_new_tokens:
+                Maximum number of new codec tokens to generate.
+            **kwargs:
+                Any other keyword arguments supported by HuggingFace Transformers `generate()` can be passed.
+                They will be forwarded to the underlying `Qwen3TTSForConditionalGeneration.generate(...)`.
+
+        Returns:
+            Tuple[List[np.ndarray], int]:
+                (wavs, sample_rate)
+        """
+        if self.model.tts_model_type != "voice_design":
+            raise ValueError(
+                f"model with \ntokenizer_type: {self.model.tokenizer_type}\n"
+                f"tts_model_size: {self.model.tts_model_size}\n"
+                f"tts_model_type: {self.model.tts_model_type}\n"
+                "does not support generate_voice_design, Please check Model Card or Readme for more details."
+            )
+        
+        texts = self._ensure_list(text)
+        languages = self._ensure_list(language) if isinstance(language, list) else ([language] * len(texts) if language is not None else ["Auto"] * len(texts))
+        instructs = self._ensure_list(instruct)
+
+        if len(languages) == 1 and len(texts) > 1:
+            languages = languages * len(texts)
+        if len(instructs) == 1 and len(texts) > 1:
+    def generate_custom_voice(
+        self,
+        text: Union[str, List[str]],
+        speaker: Union[str, List[str]],
+        language: Union[str, List[str]] = None,
+        instruct: Optional[Union[str, List[str]]] = None,
+        non_streaming_mode: bool = True,
+        **kwargs,
+    ) -> Tuple[List[np.ndarray], int]:
+        """
+        Generate speech with the CustomVoice model using a predefined speaker id, optionally controlled by instruction text.
+
+        Args:
+            text:
+                Text(s) to synthesize.
+            language:
+                Language(s) for each sample.
+            speaker:
+                Speaker name(s). Will be validated against `model.get_supported_speakers()` (case-insensitive).
+            instruct:
+                Optional instruction(s). If None, treated as empty (no instruction).
+            non_streaming_mode:
+                Using non-streaming text input, this option currently only simulates streaming text input when set to `false`, 
+                rather than enabling true streaming input or streaming generation.
+            do_sample:
+                Whether to use sampling, recommended to be set to `true` for most use cases.
+            top_k:
+                Top-k sampling parameter.
+            top_p:
+                Top-p sampling parameter.
+            temperature:
+                Sampling temperature; higher => more random.
+            repetition_penalty:
+                Penalty to reduce repeated tokens/codes.
+            subtalker_dosample:
+                Sampling switch for the sub-talker (only valid for qwen3-tts-tokenizer-v2) if applicable.
+            subtalker_top_k:
+                Top-k for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_top_p:
+                Top-p for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_temperature:
+                Temperature for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            max_new_tokens:
+                Maximum number of new codec tokens to generate.
+            **kwargs:
+                Any other keyword arguments supported by HuggingFace Transformers `generate()` can be passed.
+                They will be forwarded to the underlying `Qwen3TTSForConditionalGeneration.generate(...)`.
+
+        Returns:
+            Tuple[List[np.ndarray], int]:
+                (wavs, sample_rate)
+
+        Raises:
+            ValueError:
+                If any speaker/language is unsupported or batch sizes mismatch.
+        """
+        if self.model.tts_model_type != "custom_voice":
+            raise ValueError(
+                f"model with \ntokenizer_type: {self.model.tokenizer_type}\n"
+                f"tts_model_size: {self.model.tts_model_size}\n"
+                f"tts_model_type: {self.model.tts_model_type}\n"
+                "does not support generate_custom_voice, Please check Model Card or Readme for more details."
+            )
+
+        texts = self._ensure_list(text)
+        languages = self._ensure_list(language) if isinstance(language, list) else ([language] * len(texts) if language is not None else ["Auto"] * len(texts))
+        speakers = self._ensure_list(speaker)
+        if self.model.tts_model_size in "0b6": # for 0b6 model, instruct is not supported
+            instruct = None
+
+
+==FILES==
+.cache, .gitattributes, README.md, config.json, generation_config.json, merges.txt, model.safetensors, preprocessor_config.json, speech_tokenizer, tokenizer_config.json, vocab.json
+
+==vocab.json==
+{"!":0,"\"":1,"#":2,"$":3,"%":4,"&":5,"'":6,"(":7,")":8,"*":9,"+":10,",":11,"-":12,".":13,"/":14,"0":15,"1":16,"2":17,"3":18,"4":19,"5":20,"6":21,"7":22,"8":23,"9":24,":":25,";":26,"<":27,"=":28,">":29,"?":30,"@":31,"A":32,"B":33,"C":34,"D":35,"E":36,"F":37,"G":38,"H":39,"I":40,"J":41,"K":42,"L":43,"M":44,"N":45,"O":46,"P":47,"Q":48,"R":49,"S":50,"T":51,"U":52,"V":53,"W":54,"X":55,"Y":56,"Z":57,"[":58,"\\":59,"]":60,"^":61,"_":62,"`":63,"a":64,"b":65,"c":66,"d":67,"e":68,"f":69,"g":70,"h":71,"i":72,"j":73,"k":74,"l":75,"m":76,"n":77,"o":78,"p":79,"q":80,"r":81,"s":82,"t":83,"u":84,"v":85,"w":86,"x":87,"y":88,"z":89,"{":90,"|":91,"}":92,"~":93,"¡":94,"¢":95,"£":96,"¤":97,"¥":98,"¦":99,"§":100,"¨":101,"©":102,"ª":103,"«":104,"¬":105,"®":106,"¯":107,"°":108,"±":109,"²":110,"³":111,"´":112,"µ":113,"¶":114,"·":115,"¸":116,"¹":117,"º":118,"»":119,"¼":120,"½":121,"¾":122,"¿":123,"À":124,"Á":125,"Â":126,"Ã":127,"Ä":128,"Å":129,"Æ":130,"Ç":131,"È":132,"É":133,"Ê":134,"Ë":135,"Ì":136,"Í":137,"Î":138,"Ï":139,"Ð":140,"Ñ":141,"Ò":142,"Ó":143,"Ô":144,"Õ":145,"Ö":146,"×":147,"Ø":148,"Ù":149,"Ú":150,"Û":151,"Ü":152,"Ý":153,"Þ":154,"ß":155,"à":156,"á":157,"â":158,"ã":159,"ä":160,"å":161,"æ":162,"ç":163,"è":164,"é":165,"ê":166,"ë":167,"ì":168,"í":169,"î":170,"ï":171,"ð":172,"ñ":173,"ò":174,"ó":175,"ô":176,"õ":177,"ö":178,"÷":179,"ø":180,"ù":181,"ú":182,"û":183,"ü":184,"ý":185,"þ":186,"ÿ":187,"Ā":188,"ā":189,"Ă":190,"ă":191,"Ą":192,"ą":193,"Ć":194,"ć":195,"Ĉ":196,"ĉ":197,"Ċ":198,"ċ":199,"Č":200

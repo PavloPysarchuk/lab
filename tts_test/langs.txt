@@ -1,0 +1,5 @@
+qwen3tts-17b-base: chinese, english, french, german, italian, japanese, korean, portuguese, russian, spanish
+
+qwen3tts-06b-custom: chinese, english, french, german, italian, japanese, korean, portuguese, russian, spanish
+
+qwen3tts-17b-vd: chinese, english, french, german, italian, japanese, korean, portuguese, russian, spanish

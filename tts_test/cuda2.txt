@@ -1,0 +1,4 @@
+torchaudio cu130 -> torchaudio (2.11.0+cu130) | Available versions: 2.11.0+cu130, 2.10.0+cu130, 2.9.1+cu130, 2.9.0+cu130 |   INSTALLED: 2.11.0+cu126
+driver -> 615.71.09
+running torch 2.14.0+cu126 built for cuda 12.6
+production ai_voice pins -> torch==2.5.1 | torchaudio==2.5.1 | torchvision==0.20.1

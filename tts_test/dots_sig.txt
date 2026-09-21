@@ -1,0 +1,41 @@
+        logc("cli", "CLI command started: model={} output={} seed={}"),
+        args.model_name_or_path,
+        output_path,
+        args.seed,
+    )
+
+    try:
+        runtime = DotsTtsRuntime.from_pretrained(
+            args.model_name_or_path,
+            revision=args.revision,
+            cache_dir=args.cache_dir,
+            precision=args.precision,
+            max_generate_length=args.max_generate_length,
+            max_sequence_length=args.max_sequence_length,
+        )
+        result = runtime.generate(
+            text=args.text,
+            prompt_audio_path=args.prompt_audio,
+            prompt_text=args.prompt_text,
+            language=args.language,
+            template_name=args.template_name,
+            ode_method=args.ode_method,
+            num_steps=args.num_steps,
+            guidance_scale=args.guidance_scale,
+            speaker_scale=args.speaker_scale,
+            normalize_text=args.normalize_text,
+            profile_inference=args.profile_inference or args.profile_inference_calls,
+            log_profile_calls=args.profile_inference_calls,
+        )
+        sf.write(
+            output_path,
+            result["audio"].float().cpu().squeeze().numpy(),
+            result["sample_rate"],
+        )
+    except Exception:
+        logger.exception(
+            logc("cli", "CLI inference failed: model={} output={}"),
+            args.model_name_or_path,
+            output_path,
+        )
+        raise

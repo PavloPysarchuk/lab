@@ -1,0 +1,74 @@
+    def generate_voice_clone(
+        self,
+        text: Union[str, List[str]],
+        language: Union[str, List[str]] = None,
+        ref_audio: Optional[Union[AudioLike, List[AudioLike]]] = None,
+        ref_text: Optional[Union[str, List[Optional[str]]]] = None,
+        x_vector_only_mode: Union[bool, List[bool]] = False,
+        voice_clone_prompt: Optional[Union[Dict[str, Any], List[VoiceClonePromptItem]]] = None,
+        non_streaming_mode: bool = False,
+        **kwargs,
+    ) -> Tuple[List[np.ndarray], int]:
+        """
+        Voice clone speech using the Base model.
+            text:
+                Text(s) to synthesize.
+            language:
+                Language(s) for each sample.
+            ref_audio:
+                Reference audio(s) for prompt building. Required if voice_clone_prompt is not provided.
+            ref_text:
+                Reference text(s) used for ICL mode (required when x_vector_only_mode=False).
+            x_vector_only_mode:
+                If True, only speaker embedding is used (ignores ref_text/ref_code).
+                If False, ICL mode is used automatically.
+            voice_clone_prompt:
+                list[VoiceClonePromptItem] from `create_voice_clone_prompt`.
+            non_streaming_mode:
+                Using non-streaming text input, this option currently only simulates streaming text input when set to `false`, 
+                rather than enabling true streaming input or streaming generation.
+            do_sample:
+                Whether to use sampling, recommended to be set to `true` for most use cases.
+            top_k:
+                Top-k sampling parameter.
+            top_p:
+                Top-p sampling parameter.
+            temperature:
+                Sampling temperature; higher => more random.
+            repetition_penalty:
+                Penalty to reduce repeated tokens/codes.
+            subtalker_dosample:
+                Sampling switch for the sub-talker (only valid for qwen3-tts-tokenizer-v2) if applicable.
+            subtalker_top_k:
+                Top-k for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_top_p:
+                Top-p for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            subtalker_temperature:
+                Temperature for sub-talker sampling (only valid for qwen3-tts-tokenizer-v2).
+            max_new_tokens:
+                Maximum number of new codec tokens to generate.
+            **kwargs:
+                Any other keyword arguments supported by HuggingFace Transformers `generate()` can be passed.
+                They will be forwarded to the underlying `Qwen3TTSForConditionalGeneration.generate(...)`.
+
+        Returns:
+            Tuple[List[np.ndarray], int]:
+                (wavs, sample_rate)
+
+        Raises:
+            ValueError:
+                If batch sizes mismatch or required prompt inputs are missing.
+        """
+        if self.model.tts_model_type != "base":
+            raise ValueError(
+                f"model with \ntokenizer_type: {self.model.tokenizer_type}\n"
+                f"tts_model_size: {self.model.tts_model_size}\n"
+                f"tts_model_type: {self.model.tts_model_type}\n"
+                "does not support generate_voice_clone, Please check Model Card or Readme for more details."
+            )
+        
+        texts = self._ensure_list(text)
+        languages = self._ensure_list(language) if isinstance(language, list) else ([language] * len(texts) if language is not None else ["Auto"] * len(texts))
+        if len(languages) == 1 and len(texts) > 1:
+            languages = languages * len(texts)
+        if len(texts) != len(languages):
