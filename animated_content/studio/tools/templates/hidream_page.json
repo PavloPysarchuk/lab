@@ -1,0 +1,199 @@
+{
+ "ckpt": {
+  "class_type": "CheckpointLoaderSimple",
+  "inputs": {
+   "ckpt_name": "hidream_o1_image_dev_fp8_scaled.safetensors"
+  }
+ },
+ "noise": {
+  "class_type": "ModelNoiseScale",
+  "inputs": {
+   "noise_scale": 7.6,
+   "model": [
+    "ckpt",
+    0
+   ]
+  }
+ },
+ "prompt": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "(Simple, hand-drawn, a stylized, cartoonish look with minimal details, and a slightly abstract, childlike art style, visible sketch lines, textured brushstrokes, and vibrant colors) Medium shot in small bathroom with white tiles, a low basin with a round mirror above it, a red plastic step stool, a blue towel rolled up tightly on a wooden rail, and a bath with a yellow edge, at dusk, purple-blue evening light. Leona rolls the bottom of the toothpaste tube up with both thumbs on the basin in the foreground. Barnaby leans in closely on the left to watch. Captain Duck peers over the tube on the right. Expressions - Leona: focused and careful; Barnaby: amazed; Captain Duck: curious. Important in the picture: a white toothpaste tube rolled up from the bottom. Captain Duck is tiny, about as big as a teacup; Leona is child-sized, a five-year-old girl, about as tall as a kitchen counter, and they keep these sizes next to each other. No text or letters anywhere in the picture. Leona is the character from the first reference image. Barnaby is the character from the second reference image. Captain Duck is the character from the third reference image.",
+   "clip": [
+    "ckpt",
+    1
+   ]
+  }
+ },
+ "neg": {
+  "class_type": "CLIPTextEncode",
+  "inputs": {
+   "text": "",
+   "clip": [
+    "ckpt",
+    1
+   ]
+  }
+ },
+ "latent": {
+  "class_type": "EmptyHiDreamO1LatentImage",
+  "inputs": {
+   "width": 1536,
+   "height": 1536,
+   "batch_size": 1
+  }
+ },
+ "sigmas": {
+  "class_type": "BasicScheduler",
+  "inputs": {
+   "scheduler": "normal",
+   "steps": 20,
+   "denoise": 1.0,
+   "model": [
+    "noise",
+    0
+   ]
+  }
+ },
+ "lcm": {
+  "class_type": "SamplerLCM",
+  "inputs": {
+   "s_noise": 1.0,
+   "s_noise_end": 1.0,
+   "noise_clip_std": 2.5
+  }
+ },
+ "sampler": {
+  "class_type": "SamplerCustom",
+  "inputs": {
+   "add_noise": true,
+   "noise_seed": 1104124343,
+   "cfg": 1.0,
+   "model": [
+    "noise",
+    0
+   ],
+   "positive": [
+    "refs",
+    0
+   ],
+   "negative": [
+    "refs",
+    1
+   ],
+   "sampler": [
+    "lcm",
+    0
+   ],
+   "sigmas": [
+    "sigmas",
+    0
+   ],
+   "latent_image": [
+    "latent",
+    0
+   ]
+  }
+ },
+ "decode": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "sampler",
+    0
+   ],
+   "vae": [
+    "ckpt",
+    2
+   ]
+  }
+ },
+ "save_image_websocket_node": {
+  "class_type": "SaveImageWebsocket",
+  "inputs": {
+   "images": [
+    "decode",
+    0
+   ]
+  }
+ },
+ "ref1_load": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "ref_209bfaa6-d941-40a6-b098-6d8d6582148a.webp"
+  }
+ },
+ "ref1_scale": {
+  "class_type": "ImageScaleToTotalPixels",
+  "inputs": {
+   "upscale_method": "lanczos",
+   "megapixels": 1.0,
+   "resolution_steps": 1,
+   "image": [
+    "ref1_load",
+    0
+   ]
+  }
+ },
+ "ref2_load": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "ref_50eb87a2-64b3-4533-9c13-6d1d1b1720ac.webp"
+  }
+ },
+ "ref2_scale": {
+  "class_type": "ImageScaleToTotalPixels",
+  "inputs": {
+   "upscale_method": "lanczos",
+   "megapixels": 1.0,
+   "resolution_steps": 1,
+   "image": [
+    "ref2_load",
+    0
+   ]
+  }
+ },
+ "ref3_load": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "ref_fd856552-1956-4be9-90c7-447737b05cba.webp"
+  }
+ },
+ "ref3_scale": {
+  "class_type": "ImageScaleToTotalPixels",
+  "inputs": {
+   "upscale_method": "lanczos",
+   "megapixels": 1.0,
+   "resolution_steps": 1,
+   "image": [
+    "ref3_load",
+    0
+   ]
+  }
+ },
+ "refs": {
+  "class_type": "HiDreamO1ReferenceImages",
+  "inputs": {
+   "positive": [
+    "prompt",
+    0
+   ],
+   "negative": [
+    "neg",
+    0
+   ],
+   "images.image_1": [
+    "ref1_scale",
+    0
+   ],
+   "images.image_2": [
+    "ref2_scale",
+    0
+   ],
+   "images.image_3": [
+    "ref3_scale",
+    0
+   ]
+  }
+ }
+}

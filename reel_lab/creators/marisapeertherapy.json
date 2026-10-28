@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "marisapeertherapy",
+  "reels_scanned": 198,
+  "p25": 12100,
+  "median": 17600,
+  "p75": 31200,
+  "p90": 77500,
+  "max": 2000000,
+  "masterpieces": 10,
+  "note": "capped ~200 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:10:15.554Z"
+ },
+ "picks": [
+  [
+   "C-S-H8hPyN9",
+   2000000,
+   105.8,
+   18900
+  ],
+  [
+   "DFMCCaPvw_M",
+   1300000,
+   75.6,
+   17200
+  ],
+  [
+   "Da3KhjtTTkg",
+   861000,
+   42,
+   20500
+  ],
+  [
+   "DdRZE7xisQt",
+   436000,
+   25.3,
+   17200
+  ],
+  [
+   "DcZWnCczowF",
+   268000,
+   15.2,
+   17600
+  ],
+  [
+   "DchJRTfTzXC",
+   255000,
+   14.5,
+   17600
+  ],
+  [
+   "DaBQVk9TPR4",
+   223000,
+   13.7,
+   16300
+  ],
+  [
+   "DY0Ax8MTFnd",
+   223000,
+   11.4,
+   19600
+  ],
+  [
+   "Ddmc4NJTTO6",
+   174000,
+   10.1,
+   17200
+  ],
+  [
+   "Dcsr1lXxHNb",
+   171000,
+   10.3,
+   16600
+  ]
+ ]
+}

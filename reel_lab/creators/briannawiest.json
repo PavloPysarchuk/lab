@@ -1,0 +1,41 @@
+{
+ "stats": {
+  "creator": "briannawiest",
+  "reels_scanned": 47,
+  "p25": 324000,
+  "median": 676000,
+  "p75": 1000000,
+  "p90": 1900000,
+  "max": 5900000,
+  "masterpieces": 4,
+  "note": "full reels tab (47; mostly posts carousels); 4x tier",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:56:24.880Z"
+ },
+ "picks": [
+  [
+   "Da3sjIWxJCU",
+   5900000,
+   11.9,
+   496000
+  ],
+  [
+   "DC4o8q6SNP6",
+   4800000,
+   6,
+   802000
+  ],
+  [
+   "DAliAhCta9f",
+   4200000,
+   13,
+   324000
+  ],
+  [
+   "C_TJxkCpuwO",
+   2600000,
+   8,
+   324000
+  ]
+ ]
+}

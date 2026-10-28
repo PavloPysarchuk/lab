@@ -1,0 +1,24 @@
+{
+ "out": "/home/pavlo/lab/animated_content/work/coaching/vo",
+ "target_wpm": 200,
+ "voice": {
+  "mode": "clone",
+  "seed": 1234,
+  "ref_audio": "/home/pavlo/lab/animated_content/voice/pavlo_pinned_25s.wav",
+  "ref_text": "So here on this side is what you want to get. And here we have a pain. We have a price we need to pay, a resistance, a fear, a hard stuff, the boring stuff that we need to do. And here are we in the middle. And most people think that we go between pain and pleasure. Well, it's not really the case. Here on this side, we also have a pain. And this is the pain of everything staying as it is."
+ },
+ "segments": [
+  {
+   "name": "hook1",
+   "text": "[hook] You're not lazy. / You're losing / a *weighing* contest."
+  },
+  {
+   "name": "midA",
+   "text": "[b1] Every hard thing / has two pains. / The pain of *doing* it. / And the pain of / everything staying / *the* *same.* [b2] Right now, / the first one / feels heavier. / So you scroll. / You wait. / You plan. [b3] Here is the thing. / You move / the moment / the second pain / gets *bigger.* [b4] So stop pumping / the dream board. / Make the cost / of staying the same / *vivid.*"
+  },
+  {
+   "name": "cta1",
+   "text": "[cta] Follow me, / and let's make it / a *must.*"
+  }
+ ]
+}

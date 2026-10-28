@@ -5,6 +5,8 @@ Two notebooks for generating narration with Qwen3-TTS (Apache-2.0).
 - **01_preset_voices.ipynb** - the nine built-in voices. This is the locked production
   setup: speaker **vivian**, 1.7B CustomVoice, whole page per call, no narration direction.
 - **02_voice_clone.ipynb** - clone any voice from a short wav and read text in it.
+- **03_voice_design.ipynb** - invent a narrator from a written description. No real person
+  cloned, so no consent trail. Exploratory; production uses the preset from notebook 1.
 
 ## Setup
 
@@ -35,7 +37,7 @@ or use GPU 0.
 
 ## Folders
 
-    models/         symlink to ~/lab/tts_test/models (~11 GB of weights, not duplicated)
+    models/         qwen3tts-17b-custom (presets), -17b-base (cloning), -17b-vd (design)
     voice_samples/  reference clips for cloning
     out/            generated wav files
 

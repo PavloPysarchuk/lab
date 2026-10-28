@@ -1,0 +1,35 @@
+{
+ "stats": {
+  "creator": "susandavid_phd",
+  "reels_scanned": 114,
+  "p25": 9003,
+  "median": 13400,
+  "p75": 20800,
+  "p90": 29200,
+  "max": 1100000,
+  "masterpieces": 3,
+  "note": "~115 recent; 4x tier",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:09:05.959Z"
+ },
+ "picks": [
+  [
+   "C2xc8R7rpeg",
+   1100000,
+   41.7,
+   26400
+  ],
+  [
+   "DAdWDRIy_oy",
+   400000,
+   31.3,
+   12800
+  ],
+  [
+   "C99sKGjtiyI",
+   109000,
+   8.2,
+   13300
+  ]
+ ]
+}

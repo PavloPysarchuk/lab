@@ -1,0 +1,65 @@
+{
+ "stats": {
+  "creator": "thelesbrown",
+  "reels_scanned": 288,
+  "p25": 13200,
+  "median": 27400,
+  "p75": 62300,
+  "p90": 123000,
+  "max": 1300000,
+  "masterpieces": 8,
+  "note": "capped ~290 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:49:53.249Z"
+ },
+ "picks": [
+  [
+   "CLDKZtAjcpU",
+   1300000,
+   20.7,
+   62900
+  ],
+  [
+   "CeCw7yeD0F_",
+   1000000,
+   10,
+   100000
+  ],
+  [
+   "C0IEh-RrSnv",
+   801000,
+   20.9,
+   38300
+  ],
+  [
+   "CfBv5kbju1m",
+   666000,
+   17.3,
+   38500
+  ],
+  [
+   "DHrWLYYTK_K",
+   432000,
+   27.3,
+   15800
+  ],
+  [
+   "DTI0hfQCc7r",
+   314000,
+   14,
+   22500
+  ],
+  [
+   "CXpi1tADKGT",
+   256000,
+   10.1,
+   25400
+  ],
+  [
+   "DLI7PB8RWWU",
+   140000,
+   11,
+   12700
+  ]
+ ]
+}

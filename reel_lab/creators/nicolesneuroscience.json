@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "creator": "nicolesneuroscience",
+  "reels_scanned": 186,
+  "p25": 28100,
+  "median": 45700,
+  "p75": 75000,
+  "p90": 147000,
+  "max": 2700000,
+  "masterpieces": 6,
+  "note": "capped ~190 recent; 4 at 10x -> 4x tier, top 6 kept",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:04:00.531Z"
+ },
+ "picks": [
+  [
+   "DOtfrFdjZM0",
+   2700000,
+   115.4,
+   23400
+  ],
+  [
+   "DQWyjBQDRs8",
+   2500000,
+   106.8,
+   23400
+  ],
+  [
+   "DJzZAEeopXU",
+   1300000,
+   23.7,
+   54900
+  ],
+  [
+   "DQ9f7obDenM",
+   428000,
+   17.1,
+   25100
+  ],
+  [
+   "DYsJgH3NI5l",
+   395000,
+   7.3,
+   54100
+  ],
+  [
+   "DYCO7jjtF0h",
+   372000,
+   9.4,
+   39700
+  ]
+ ]
+}

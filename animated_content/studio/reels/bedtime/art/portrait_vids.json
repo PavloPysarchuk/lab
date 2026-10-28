@@ -1,0 +1,5 @@
+[
+ {"kind":"video","in":"scared.png","out":"scared.mp4","seed":11,"prompt":"Mia keeps peeking over the quilt and trembles slightly; the dark shadow on the wall slowly sways and stretches its long arms. The lamp light flickers softly. Nothing enters the frame. Static camera."},
+ {"kind":"video","in":"cover.png","out":"cover.mp4","seed":12,"prompt":"The lantern flame keeps flickering and its glow pulses softly; the stars twinkle; Mia and the fox keep smiling and sway slightly. Nothing enters the frame. Static camera."},
+ {"kind":"video","in":"lamp_off.png","out":"lamp_off.mp4","seed":15,"prompt":"Mia keeps sleeping peacefully and the quilt rises and falls slightly as she breathes; the moonlight shimmers softly. Nothing enters the frame. Static camera."}
+]

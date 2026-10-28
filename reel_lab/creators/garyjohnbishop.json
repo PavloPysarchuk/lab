@@ -1,0 +1,107 @@
+{
+ "stats": {
+  "creator": "garyjohnbishop",
+  "reels_scanned": 456,
+  "p25": 7693,
+  "median": 11900,
+  "p75": 23600,
+  "p90": 45500,
+  "max": 38700000,
+  "masterpieces": 15,
+  "note": "capped at ~450 most recent of 2333 posts",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:18:50.366Z"
+ },
+ "picks": [
+  [
+   "CvfvhBZpReL",
+   38700000,
+   1704.8,
+   22700
+  ],
+  [
+   "C_d-2QDpLxd",
+   16000000,
+   1006.3,
+   15900
+  ],
+  [
+   "DAWoVS9Jhpv",
+   11300000,
+   710.7,
+   15900
+  ],
+  [
+   "DKKvZhiueIk",
+   7800000,
+   811,
+   9618
+  ],
+  [
+   "CwYZM4apck9",
+   5800000,
+   694.4,
+   8352
+  ],
+  [
+   "Cx_YpPfppbK",
+   4100000,
+   180.6,
+   22700
+  ],
+  [
+   "CuXpgmwpC4t",
+   3300000,
+   145.4,
+   22700
+  ],
+  [
+   "C9S75EEuVoQ",
+   3100000,
+   208.1,
+   14900
+  ],
+  [
+   "C7fEHMfpFNm",
+   2000000,
+   99,
+   20200
+  ],
+  [
+   "CzcSDQ6J5gv",
+   1800000,
+   132.4,
+   13600
+  ],
+  [
+   "C85MAT3JQut",
+   302000,
+   19.5,
+   15500
+  ],
+  [
+   "DA1h7-ZS_Vf",
+   248000,
+   15.6,
+   15900
+  ],
+  [
+   "Cwn1fJUJ5Gv",
+   160000,
+   19.7,
+   8106
+  ],
+  [
+   "DHrRNqqMqqD",
+   91800,
+   10.2,
+   9013
+  ],
+  [
+   "DatLzvSJiKe",
+   70400,
+   12.2,
+   5790
+  ]
+ ]
+}

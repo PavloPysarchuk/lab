@@ -1,0 +1,65 @@
+{
+ "stats": {
+  "creator": "ryanholiday",
+  "reels_scanned": 300,
+  "p25": 68400,
+  "median": 164000,
+  "p75": 301000,
+  "p90": 664000,
+  "max": 7200000,
+  "masterpieces": 8,
+  "note": "capped ~300 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:58:09.467Z"
+ },
+ "picks": [
+  [
+   "DcEe19xhnlM",
+   7200000,
+   29.9,
+   241000
+  ],
+  [
+   "DX9gEEEpQ62",
+   3100000,
+   15,
+   206000
+  ],
+  [
+   "DXACtjLBRAS",
+   2500000,
+   10.2,
+   246000
+  ],
+  [
+   "DbD8Pupt_Go",
+   2000000,
+   11.6,
+   173000
+  ],
+  [
+   "DcYthLiuSQ4",
+   1200000,
+   12.8,
+   93800
+  ],
+  [
+   "Dc6MUG0PVPJ",
+   1100000,
+   14.6,
+   75300
+  ],
+  [
+   "DZpteKTRedJ",
+   775000,
+   10,
+   77500
+  ],
+  [
+   "DaJJ4S2uTPZ",
+   666000,
+   11.3,
+   59100
+  ]
+ ]
+}

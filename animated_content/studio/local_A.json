@@ -1,0 +1,734 @@
+{
+ "modules": [
+  {
+   "name": "hook1",
+   "kind": "hook",
+   "t0": 0.0,
+   "dur": 2.653,
+   "vo": "vo/hook1.wav",
+   "next": 2.753
+  },
+  {
+   "name": "midA",
+   "kind": "mid",
+   "t0": 2.753,
+   "dur": 19.473,
+   "vo": "vo/midA.wav",
+   "next": 22.406
+  },
+  {
+   "name": "cta1",
+   "kind": "cta",
+   "t0": 22.406,
+   "dur": 3.274,
+   "vo": "vo/cta1.wav",
+   "next": 27.03
+  }
+ ],
+ "tokens": [
+  {
+   "w": "What",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.0,
+   "e": 0.24,
+   "module": "hook1"
+  },
+  {
+   "w": "if",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.24,
+   "e": 0.32,
+   "module": "hook1"
+  },
+  {
+   "w": "tonight's",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.32,
+   "e": 0.8,
+   "module": "hook1"
+  },
+  {
+   "w": "bedtime",
+   "accent": false,
+   "phrase": 1,
+   "beat": "hook",
+   "s": 0.8,
+   "e": 1.2,
+   "module": "hook1"
+  },
+  {
+   "w": "story",
+   "accent": false,
+   "phrase": 1,
+   "beat": "hook",
+   "s": 1.2,
+   "e": 1.52,
+   "module": "hook1"
+  },
+  {
+   "w": "was",
+   "accent": false,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.52,
+   "e": 1.68,
+   "module": "hook1"
+  },
+  {
+   "w": "about",
+   "accent": false,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.68,
+   "e": 1.92,
+   "module": "hook1"
+  },
+  {
+   "w": "your",
+   "accent": true,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.92,
+   "e": 2.08,
+   "module": "hook1"
+  },
+  {
+   "w": "kid?",
+   "accent": true,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 2.08,
+   "e": 2.48,
+   "module": "hook1"
+  },
+  {
+   "w": "This",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 2.753,
+   "e": 2.913,
+   "module": "midA"
+  },
+  {
+   "w": "is",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 2.913,
+   "e": 3.073,
+   "module": "midA"
+  },
+  {
+   "w": "Mia.",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 3.073,
+   "e": 3.153,
+   "module": "midA"
+  },
+  {
+   "w": "She's",
+   "accent": false,
+   "phrase": 4,
+   "beat": "b1",
+   "s": 3.793,
+   "e": 4.113,
+   "module": "midA"
+  },
+  {
+   "w": "four,",
+   "accent": false,
+   "phrase": 4,
+   "beat": "b1",
+   "s": 4.113,
+   "e": 4.433,
+   "module": "midA"
+  },
+  {
+   "w": "and",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 4.593,
+   "e": 4.753,
+   "module": "midA"
+  },
+  {
+   "w": "she's",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 4.753,
+   "e": 5.153,
+   "module": "midA"
+  },
+  {
+   "w": "scared",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 5.153,
+   "e": 5.713,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 5.713,
+   "e": 5.793,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 5.793,
+   "e": 5.873,
+   "module": "midA"
+  },
+  {
+   "w": "dark.",
+   "accent": true,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 5.953,
+   "e": 6.193,
+   "module": "midA"
+  },
+  {
+   "w": "Every",
+   "accent": false,
+   "phrase": 7,
+   "beat": "b1",
+   "s": 6.753,
+   "e": 6.993,
+   "module": "midA"
+  },
+  {
+   "w": "single",
+   "accent": false,
+   "phrase": 7,
+   "beat": "b1",
+   "s": 6.993,
+   "e": 7.313,
+   "module": "midA"
+  },
+  {
+   "w": "night.",
+   "accent": false,
+   "phrase": 7,
+   "beat": "b1",
+   "s": 7.313,
+   "e": 7.633,
+   "module": "midA"
+  },
+  {
+   "w": "So",
+   "accent": false,
+   "phrase": 8,
+   "beat": "b2",
+   "s": 7.873,
+   "e": 8.033,
+   "module": "midA"
+  },
+  {
+   "w": "her",
+   "accent": false,
+   "phrase": 8,
+   "beat": "b2",
+   "s": 8.033,
+   "e": 8.113,
+   "module": "midA"
+  },
+  {
+   "w": "mum",
+   "accent": false,
+   "phrase": 8,
+   "beat": "b2",
+   "s": 8.113,
+   "e": 8.353,
+   "module": "midA"
+  },
+  {
+   "w": "typed",
+   "accent": false,
+   "phrase": 8,
+   "beat": "b2",
+   "s": 8.353,
+   "e": 8.673,
+   "module": "midA"
+  },
+  {
+   "w": "three",
+   "accent": false,
+   "phrase": 9,
+   "beat": "b2",
+   "s": 8.673,
+   "e": 8.913,
+   "module": "midA"
+  },
+  {
+   "w": "things:",
+   "accent": false,
+   "phrase": 9,
+   "beat": "b2",
+   "s": 8.913,
+   "e": 9.313,
+   "module": "midA"
+  },
+  {
+   "w": "Mia,",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 9.633,
+   "e": 9.873,
+   "module": "midA"
+  },
+  {
+   "w": "four,",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 10.113,
+   "e": 10.433,
+   "module": "midA"
+  },
+  {
+   "w": "red",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 10.673,
+   "e": 10.833,
+   "module": "midA"
+  },
+  {
+   "w": "hair,",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 10.833,
+   "e": 11.233,
+   "module": "midA"
+  },
+  {
+   "w": "loves",
+   "accent": false,
+   "phrase": 11,
+   "beat": "b2",
+   "s": 11.233,
+   "e": 11.553,
+   "module": "midA"
+  },
+  {
+   "w": "foxes,",
+   "accent": true,
+   "phrase": 11,
+   "beat": "b2",
+   "s": 11.553,
+   "e": 11.953,
+   "module": "midA"
+  },
+  {
+   "w": "scared",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 11.953,
+   "e": 12.433,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 12.433,
+   "e": 12.513,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 12.513,
+   "e": 12.593,
+   "module": "midA"
+  },
+  {
+   "w": "dark.",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 12.593,
+   "e": 12.993,
+   "module": "midA"
+  },
+  {
+   "w": "Four",
+   "accent": false,
+   "phrase": 13,
+   "beat": "b3",
+   "s": 13.393,
+   "e": 13.553,
+   "module": "midA"
+  },
+  {
+   "w": "minutes",
+   "accent": false,
+   "phrase": 13,
+   "beat": "b3",
+   "s": 13.553,
+   "e": 13.873,
+   "module": "midA"
+  },
+  {
+   "w": "later:",
+   "accent": false,
+   "phrase": 13,
+   "beat": "b3",
+   "s": 13.873,
+   "e": 14.113,
+   "module": "midA"
+  },
+  {
+   "w": "Mia",
+   "accent": true,
+   "phrase": 14,
+   "beat": "b3",
+   "s": 14.593,
+   "e": 14.833,
+   "module": "midA"
+  },
+  {
+   "w": "and",
+   "accent": true,
+   "phrase": 14,
+   "beat": "b3",
+   "s": 15.153,
+   "e": 15.233,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": true,
+   "phrase": 14,
+   "beat": "b3",
+   "s": 15.233,
+   "e": 15.313,
+   "module": "midA"
+  },
+  {
+   "w": "Night",
+   "accent": true,
+   "phrase": 14,
+   "beat": "b3",
+   "s": 15.313,
+   "e": 15.553,
+   "module": "midA"
+  },
+  {
+   "w": "Fox.",
+   "accent": true,
+   "phrase": 14,
+   "beat": "b3",
+   "s": 15.553,
+   "e": 16.033,
+   "module": "midA"
+  },
+  {
+   "w": "A",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3b",
+   "s": 16.433,
+   "e": 16.493,
+   "module": "midA"
+  },
+  {
+   "w": "fox",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3b",
+   "s": 16.433,
+   "e": 16.673,
+   "module": "midA"
+  },
+  {
+   "w": "with",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3b",
+   "s": 16.673,
+   "e": 16.833,
+   "module": "midA"
+  },
+  {
+   "w": "a",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3b",
+   "s": 16.833,
+   "e": 16.913,
+   "module": "midA"
+  },
+  {
+   "w": "lantern",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3b",
+   "s": 16.913,
+   "e": 17.313,
+   "module": "midA"
+  },
+  {
+   "w": "shows",
+   "accent": false,
+   "phrase": 16,
+   "beat": "b3b",
+   "s": 17.313,
+   "e": 17.553,
+   "module": "midA"
+  },
+  {
+   "w": "her",
+   "accent": false,
+   "phrase": 16,
+   "beat": "b3b",
+   "s": 17.553,
+   "e": 17.633,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3b",
+   "s": 17.633,
+   "e": 17.713,
+   "module": "midA"
+  },
+  {
+   "w": "dark",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3b",
+   "s": 17.713,
+   "e": 17.953,
+   "module": "midA"
+  },
+  {
+   "w": "is",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3b",
+   "s": 17.953,
+   "e": 18.113,
+   "module": "midA"
+  },
+  {
+   "w": "full",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3b",
+   "s": 18.113,
+   "e": 18.193,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 18,
+   "beat": "b3b",
+   "s": 18.273,
+   "e": 18.433,
+   "module": "midA"
+  },
+  {
+   "w": "friendly",
+   "accent": true,
+   "phrase": 18,
+   "beat": "b3b",
+   "s": 18.433,
+   "e": 18.753,
+   "module": "midA"
+  },
+  {
+   "w": "things.",
+   "accent": false,
+   "phrase": 18,
+   "beat": "b3b",
+   "s": 18.753,
+   "e": 19.233,
+   "module": "midA"
+  },
+  {
+   "w": "And",
+   "accent": false,
+   "phrase": 19,
+   "beat": "b4",
+   "s": 19.633,
+   "e": 19.793,
+   "module": "midA"
+  },
+  {
+   "w": "tonight,",
+   "accent": false,
+   "phrase": 19,
+   "beat": "b4",
+   "s": 19.793,
+   "e": 20.193,
+   "module": "midA"
+  },
+  {
+   "w": "Mia",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 20.593,
+   "e": 20.753,
+   "module": "midA"
+  },
+  {
+   "w": "switched",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 20.753,
+   "e": 21.153,
+   "module": "midA"
+  },
+  {
+   "w": "off",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 21.153,
+   "e": 21.313,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 21,
+   "beat": "b4",
+   "s": 21.313,
+   "e": 21.393,
+   "module": "midA"
+  },
+  {
+   "w": "light",
+   "accent": false,
+   "phrase": 21,
+   "beat": "b4",
+   "s": 21.393,
+   "e": 21.553,
+   "module": "midA"
+  },
+  {
+   "w": "herself.",
+   "accent": true,
+   "phrase": 22,
+   "beat": "b4",
+   "s": 21.553,
+   "e": 22.113,
+   "module": "midA"
+  },
+  {
+   "w": "Make",
+   "accent": false,
+   "phrase": 23,
+   "beat": "cta",
+   "s": 22.406,
+   "e": 22.646,
+   "module": "cta1"
+  },
+  {
+   "w": "your",
+   "accent": false,
+   "phrase": 23,
+   "beat": "cta",
+   "s": 22.646,
+   "e": 22.726,
+   "module": "cta1"
+  },
+  {
+   "w": "child's",
+   "accent": false,
+   "phrase": 23,
+   "beat": "cta",
+   "s": 22.726,
+   "e": 23.126,
+   "module": "cta1"
+  },
+  {
+   "w": "first",
+   "accent": false,
+   "phrase": 24,
+   "beat": "cta",
+   "s": 23.126,
+   "e": 23.366,
+   "module": "cta1"
+  },
+  {
+   "w": "story",
+   "accent": false,
+   "phrase": 24,
+   "beat": "cta",
+   "s": 23.366,
+   "e": 23.686,
+   "module": "cta1"
+  },
+  {
+   "w": "free.",
+   "accent": true,
+   "phrase": 25,
+   "beat": "cta",
+   "s": 23.686,
+   "e": 24.166,
+   "module": "cta1"
+  },
+  {
+   "w": "Link",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 24.646,
+   "e": 24.966,
+   "module": "cta1"
+  },
+  {
+   "w": "in",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 24.966,
+   "e": 25.046,
+   "module": "cta1"
+  },
+  {
+   "w": "bio.",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 25.046,
+   "e": 25.606,
+   "module": "cta1"
+  }
+ ],
+ "duration": 26.03,
+ "name": "hook1_midA_cta1"
+}

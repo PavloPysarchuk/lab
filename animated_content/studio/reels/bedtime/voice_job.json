@@ -1,0 +1,55 @@
+{
+ "out": "/home/pavlo/lab/animated_content/work/bedtime/vo",
+ "target_wpm": 200,
+ "voice": {
+  "mode": "design",
+  "seed": 11,
+  "instruct": "A warm, friendly woman in her early thirties, a mum talking to other parents about something that really worked. Natural, conversational and upbeat, with a gentle smile in her voice. Clear, close to the microphone, quick confident pace. Not sing-song, not theatrical, not a radio announcer."
+ },
+ "segments": [
+  {
+   "name": "hook1",
+   "text": "[hook] What if tonight's / bedtime story / was about *your* *kid?*"
+  },
+  {
+   "name": "hook2",
+   "text": "[hook] POV: / your child hears / their own *name* / in a bedtime story."
+  },
+  {
+   "name": "hook3",
+   "text": "[hook] Reading the same book / for the *four* *hundredth* time?"
+  },
+  {
+   "name": "hook4",
+   "text": "[hook] Bedtime battle / every *single* night? / Try this."
+  },
+  {
+   "name": "hook5",
+   "text": "[hook] Type three things / about your child. / Get *this.*"
+  },
+  {
+   "name": "hook6",
+   "text": "[hook] Parents of three to six year olds, / save this / for *tonight.*"
+  },
+  {
+   "name": "hook8A",
+   "text": "[hook] Scared of the dark? / Try a story / where *she* is / the brave one."
+  },
+  {
+   "name": "midA",
+   "text": "[b1] This is Mia. / She's four, / and she's scared / of the *dark.* / Every single night. [b2] So her mum typed / three things: / Mia, four, red hair, / loves *foxes,* / scared of the dark. [b3] Four minutes later: / *Mia* *and* *the* *Night* *Fox.* [b3b] A fox with a lantern / shows her / the dark is full / of *friendly* things. [b4] And tonight, / Mia switched off / the light / *herself.*"
+  },
+  {
+   "name": "cta1",
+   "text": "[cta] Make your child's / first story / *free.* / Link in bio."
+  },
+  {
+   "name": "cta2",
+   "text": "[cta] Tell us their name / and what they're / struggling with. / Story ready / in *four* *minutes.*"
+  },
+  {
+   "name": "cta3",
+   "text": "[cta] Comment *STORY* / and we'll send you / the link."
+  }
+ ]
+}

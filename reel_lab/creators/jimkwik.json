@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "jimkwik",
+  "reels_scanned": 186,
+  "p25": 17600,
+  "median": 23200,
+  "p75": 43000,
+  "p90": 133000,
+  "max": 2200000,
+  "masterpieces": 10,
+  "note": "capped ~190 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:11:22.661Z"
+ },
+ "picks": [
+  [
+   "DWRek21lJRm",
+   2200000,
+   60.8,
+   36200
+  ],
+  [
+   "DXcJfX5jzB2",
+   2100000,
+   78.7,
+   26700
+  ],
+  [
+   "DXj4RodEfuI",
+   1100000,
+   42.3,
+   26000
+  ],
+  [
+   "DW9QVflDVFr",
+   896000,
+   21,
+   42600
+  ],
+  [
+   "DVwAVtGDwcU",
+   746000,
+   17.5,
+   42600
+  ],
+  [
+   "Dc3nCslRUoS",
+   737000,
+   36.3,
+   20300
+  ],
+  [
+   "DYFWhmADDmP",
+   622000,
+   23.6,
+   26400
+  ],
+  [
+   "DVL9V8DjdTe",
+   458000,
+   12.7,
+   36200
+  ],
+  [
+   "DZYaJDtydbn",
+   318000,
+   13.5,
+   23500
+  ],
+  [
+   "DcwDPpWgpYx",
+   274000,
+   14.6,
+   18800
+  ]
+ ]
+}

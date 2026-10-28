@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "etthehiphoppreacher",
+  "reels_scanned": 312,
+  "p25": 45900,
+  "median": 102000,
+  "p75": 183000,
+  "p90": 345000,
+  "max": 15800000,
+  "masterpieces": 10,
+  "note": "capped ~310 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:48:11.457Z"
+ },
+ "picks": [
+  [
+   "DXiMyoSNCeu",
+   15800000,
+   205.2,
+   77000
+  ],
+  [
+   "DYgJvLlx6tg",
+   4300000,
+   32.1,
+   134000
+  ],
+  [
+   "DbFgO-XhWjF",
+   1600000,
+   15,
+   107000
+  ],
+  [
+   "DdKh9dKx9L7",
+   1400000,
+   19.6,
+   71600
+  ],
+  [
+   "DZLjT9KxS8e",
+   1400000,
+   12.6,
+   111000
+  ],
+  [
+   "DdF-4rEMjB-",
+   1200000,
+   16.8,
+   71600
+  ],
+  [
+   "DascMfAR5dt",
+   1200000,
+   10.8,
+   111000
+  ],
+  [
+   "DXR0XB2RG3M",
+   1000000,
+   14.5,
+   69100
+  ],
+  [
+   "DXLvJWbhCJO",
+   1000000,
+   16.1,
+   62200
+  ],
+  [
+   "DXCup0RxM_T",
+   722000,
+   16,
+   45000
+  ]
+ ]
+}

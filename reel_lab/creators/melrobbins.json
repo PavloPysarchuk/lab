@@ -1,0 +1,65 @@
+{
+ "stats": {
+  "creator": "melrobbins",
+  "reels_scanned": 492,
+  "p25": 859000,
+  "median": 1300000,
+  "p75": 2200000,
+  "p90": 3000000,
+  "max": 28800000,
+  "masterpieces": 8,
+  "note": "capped ~490 recent; relaxed 4x tier (10x gave 1)",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:37:46.284Z"
+ },
+ "picks": [
+  [
+   "DCnA8hTudUX",
+   28800000,
+   34.7,
+   829000
+  ],
+  [
+   "DRoM8c8GJT-",
+   11500000,
+   5.5,
+   2100000
+  ],
+  [
+   "DPou-GrEgth",
+   8600000,
+   4.8,
+   1800000
+  ],
+  [
+   "DPOwuakCYJN",
+   7700000,
+   4.3,
+   1800000
+  ],
+  [
+   "DZ9dhnQgrSd",
+   5500000,
+   6,
+   915000
+  ],
+  [
+   "DZU7ncMCIrm",
+   5400000,
+   4.9,
+   1100000
+  ],
+  [
+   "DDauvZ5sB07",
+   4600000,
+   5.8,
+   791000
+  ],
+  [
+   "DXFC3bTkfr-",
+   3700000,
+   4,
+   925000
+  ]
+ ]
+}

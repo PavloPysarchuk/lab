@@ -1,0 +1,65 @@
+{
+ "stats": {
+  "creator": "davidgoggins",
+  "reels_scanned": 121,
+  "p25": 1200000,
+  "median": 2800000,
+  "p75": 7500000,
+  "p90": 12700000,
+  "max": 47400000,
+  "masterpieces": 8,
+  "note": "full profile; 0 at 10x/4x (uniformly huge) -> top 8 by views",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:39:01.731Z"
+ },
+ "picks": [
+  [
+   "C1-PljMvj1Y",
+   47400000,
+   3.9,
+   12100000
+  ],
+  [
+   "CzueXR2vN_T",
+   39700000,
+   3.7,
+   10800000
+  ],
+  [
+   "DNPFW7jh88V",
+   33200000,
+   2.7,
+   12500000
+  ],
+  [
+   "DMx8eVpJm9k",
+   24800000,
+   2,
+   12100000
+  ],
+  [
+   "DBwnb76yEWc",
+   24600000,
+   2,
+   12200000
+  ],
+  [
+   "DMnn8MrRGci",
+   24500000,
+   2,
+   12200000
+  ],
+  [
+   "C-a89v_Srcy",
+   20000000,
+   1.6,
+   12200000
+  ],
+  [
+   "C0HsMi1vIbr",
+   14700000,
+   1.4,
+   10800000
+  ]
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "stats": {
+  "creator": "papaswellness",
+  "reels_scanned": 162,
+  "p25": 7643,
+  "median": 19400,
+  "p75": 78700,
+  "p90": 420000,
+  "max": 16800000,
+  "masterpieces": 13,
+  "note": "~160 (early era reached)",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:05:10.140Z"
+ },
+ "picks": [
+  [
+   "DavnWvhMvOk",
+   16800000,
+   207.7,
+   80900
+  ],
+  [
+   "DbB-nHfhNnj",
+   4400000,
+   86.4,
+   50900
+  ],
+  [
+   "DYfpjIaBfnj",
+   3000000,
+   79.8,
+   37600
+  ],
+  [
+   "DZGUOLFyU-6",
+   1600000,
+   18.8,
+   85100
+  ],
+  [
+   "DYP76i4sV7D",
+   1500000,
+   41,
+   36600
+  ],
+  [
+   "DcwN-0nJlT7",
+   1200000,
+   15.2,
+   78700
+  ],
+  [
+   "DZgV04wsWsP",
+   1100000,
+   12.5,
+   87800
+  ],
+  [
+   "DbRPGohyMWc",
+   897000,
+   23.4,
+   38400
+  ],
+  [
+   "DculE2_str5",
+   654000,
+   11.1,
+   59000
+  ],
+  [
+   "DTzPSnHDHUT",
+   602000,
+   94.7,
+   6356
+  ],
+  [
+   "DbGu_yxM7Ap",
+   537000,
+   10.2,
+   52600
+  ],
+  [
+   "DYGKW7ovYnA",
+   356000,
+   15,
+   23800
+  ],
+  [
+   "DTMguLUjNEC",
+   85000,
+   12.1,
+   7027
+  ]
+ ]
+}

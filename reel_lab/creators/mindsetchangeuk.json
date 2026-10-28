@@ -1,0 +1,107 @@
+{
+ "stats": {
+  "creator": "mindsetchangeuk",
+  "reels_scanned": 684,
+  "p25": 1068,
+  "median": 5453,
+  "p75": 15900,
+  "p90": 35500,
+  "max": 7200000,
+  "masterpieces": 15,
+  "note": "stopped scan at 684 of ~1181 posts: remaining early reels 100-300 views, cannot pass p75",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75",
+  "scanned_at": "2026-09-23T23:15:54.830Z"
+ },
+ "picks": [
+  [
+   "CvakeqtADZV",
+   7200000,
+   293.9,
+   24500
+  ],
+  [
+   "Cyy_-LvrXCC",
+   6500000,
+   184.7,
+   35200
+  ],
+  [
+   "C12MMX-MZtE",
+   1100000,
+   51.2,
+   21500
+  ],
+  [
+   "Cz_yKkEMYZ2",
+   676000,
+   239.4,
+   2824
+  ],
+  [
+   "CzolDvfsZ_7",
+   433000,
+   13,
+   33300
+  ],
+  [
+   "CxqxKl2MtPN",
+   357000,
+   126.4,
+   2824
+  ],
+  [
+   "C3k6j2asz78",
+   290000,
+   11.2,
+   25900
+  ],
+  [
+   "DVY-OKkiHDz",
+   272000,
+   47.7,
+   5697
+  ],
+  [
+   "C145Z72spaC",
+   266000,
+   12.6,
+   21100
+  ],
+  [
+   "Cuz-_x8g4OB",
+   204000,
+   14.5,
+   14100
+  ],
+  [
+   "CuP7Ivug_Zy",
+   160000,
+   25.9,
+   6179
+  ],
+  [
+   "DXMyWaNCFoS",
+   98700,
+   16.5,
+   5977
+  ],
+  [
+   "DQ4nfX2CLfa",
+   57100,
+   10.5,
+   5451
+  ],
+  [
+   "Cp7VmoDg5UV",
+   50500,
+   27.1,
+   1866
+  ],
+  [
+   "CqudAkUA3SQ",
+   38500,
+   19.4,
+   1982
+  ]
+ ]
+}

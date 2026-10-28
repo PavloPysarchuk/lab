@@ -1,0 +1,23 @@
+{
+ "stats": {
+  "creator": "executivefunctioningfirst",
+  "reels_scanned": 90,
+  "p25": 546,
+  "median": 746,
+  "p75": 1341,
+  "p90": 2452,
+  "max": 26200,
+  "masterpieces": 1,
+  "note": "small account; single breakout",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:12:11.273Z"
+ },
+ "picks": [
+  [
+   "CqTPqaxgf9d",
+   26200,
+   53.8,
+   487
+  ]
+ ]
+}

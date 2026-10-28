@@ -1,0 +1,4 @@
+[
+ {"kind":"image","out":"mia_ref.png","seed":4242,"size":"1152x1536","prompt":"Full-body character reference on a plain white background: Mia, a four-year-old girl with bright red hair in two bunches tied with teal hair ties, freckles, big brown eyes, rosy cheeks, wearing pink pyjamas with little white stars, barefoot, standing and smiling, facing the viewer. Mia is child-sized, a four-year-old girl."},
+ {"kind":"image","out":"fox_ref.png","seed":777,"size":"1152x1536","prompt":"Full-body character reference on a plain white background: a small friendly orange fox with a white chest and a white tip on its fluffy tail, standing upright on its hind legs, holding a little brass lantern with a warm glowing flame hanging from a short wooden stick, kind dark eyes, gentle smile, facing the viewer. The fox is small, about as tall as a four-year-old child's waist."}
+]

@@ -1,0 +1,65 @@
+{
+ "stats": {
+  "creator": "healthygamer_gg",
+  "reels_scanned": 198,
+  "p25": 62500,
+  "median": 96600,
+  "p75": 158000,
+  "p90": 332000,
+  "max": 5400000,
+  "masterpieces": 8,
+  "note": "capped ~200 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:08:11.881Z"
+ },
+ "picks": [
+  [
+   "DOyP6ZYjCTd",
+   5400000,
+   44.6,
+   121000
+  ],
+  [
+   "DbV4kxzOMDf",
+   2400000,
+   24.1,
+   99500
+  ],
+  [
+   "CsWvCHog99z",
+   2200000,
+   18.2,
+   121000
+  ],
+  [
+   "DVZldqUDX_J",
+   2000000,
+   17.1,
+   117000
+  ],
+  [
+   "DbYVWVyty68",
+   1800000,
+   18.1,
+   99500
+  ],
+  [
+   "DbbB6f-tr1M",
+   1400000,
+   13.9,
+   101000
+  ],
+  [
+   "DVtZOOhjHEi",
+   1300000,
+   11.7,
+   111000
+  ],
+  [
+   "DUvr5sskb1W",
+   1200000,
+   10.8,
+   111000
+  ]
+ ]
+}

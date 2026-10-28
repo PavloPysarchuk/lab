@@ -1,0 +1,89 @@
+{
+ "stats": {
+  "creator": "jockowillink",
+  "reels_scanned": 396,
+  "p25": 91700,
+  "median": 148000,
+  "p75": 281000,
+  "p90": 475000,
+  "max": 8600000,
+  "masterpieces": 12,
+  "note": "capped ~400 recent; 10x gave <5 -> 4x tier, top 12 kept",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:41:14.850Z"
+ },
+ "picks": [
+  [
+   "DR0ASuxkvaJ",
+   8600000,
+   45.3,
+   190000
+  ],
+  [
+   "Dceu8I_RGls",
+   1600000,
+   8.7,
+   183000
+  ],
+  [
+   "DP-LGOYjEpB",
+   1300000,
+   7.9,
+   164000
+  ],
+  [
+   "DZDT-HHATNp",
+   1200000,
+   9.8,
+   122000
+  ],
+  [
+   "DSYQxHNEnEm",
+   1200000,
+   7.8,
+   153000
+  ],
+  [
+   "DcmTevmPJGV",
+   1100000,
+   6,
+   183000
+  ],
+  [
+   "DcW4fKmpgtB",
+   1100000,
+   9.5,
+   116000
+  ],
+  [
+   "DTA9qq5ijRg",
+   1100000,
+   7.5,
+   146000
+  ],
+  [
+   "DRxJIgaFKjS",
+   1000000,
+   4.1,
+   242000
+  ],
+  [
+   "DVM9jI8CdTM",
+   978000,
+   7,
+   140000
+  ],
+  [
+   "Dcb_FDHxqb3",
+   945000,
+   5.9,
+   161000
+  ],
+  [
+   "DaX0Bq9OWeI",
+   899000,
+   5.4,
+   165000
+  ]
+ ]
+}

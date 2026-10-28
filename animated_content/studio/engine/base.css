@@ -1,0 +1,41 @@
+@font-face{font-family:Inter;src:url(../fonts/Inter.ttf);font-weight:100 900}
+@font-face{font-family:'Instrument Serif';src:url(../fonts/InstrumentSerif-Italic.ttf);font-style:italic}
+@font-face{font-family:'Instrument Serif';src:url(../fonts/InstrumentSerif-Regular.ttf);font-style:normal}
+@font-face{font-family:Fraunces;src:url(../fonts/Fraunces.ttf);font-weight:100 900}
+@font-face{font-family:Fraunces;src:url(../fonts/Fraunces-Italic.ttf);font-weight:100 900;font-style:italic}
+@font-face{font-family:JBM;src:url(../fonts/JetBrainsMono.ttf);font-weight:100 900}
+@font-face{font-family:Nunito;src:url(../fonts/Nunito.ttf);font-weight:200 1000}
+@font-face{font-family:Caveat;src:url(../fonts/Caveat.ttf);font-weight:400 700}
+
+:root{--bg:#141A3A;--ink:#F6F1E8;--dim:rgba(246,241,232,.55);--accent:#F2B544;--card:#FFFDF8;--cardInk:#1B1730;--shadow:rgba(5,6,20,.55)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:absolute;inset:0;overflow:hidden;background:var(--bg);font-family:Inter,sans-serif;color:var(--ink)}
+.layer{position:absolute;inset:0;overflow:hidden}
+.abs{position:absolute;left:0;top:0;transform-origin:50% 50%;will-change:transform}
+/* paper grain + dot grid (the "printed" look of the reference reels) */
+#grain{position:absolute;inset:0;pointer-events:none;z-index:50;opacity:.16;mix-blend-mode:overlay;
+ background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1.4 -.2'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>")}
+.dots{background-image:radial-gradient(rgba(0,0,0,.09) 1.6px,transparent 1.8px);background-size:14px 14px}
+.dots-light{background-image:radial-gradient(rgba(255,255,255,.07) 1.6px,transparent 1.8px);background-size:14px 14px}
+/* halftone drop shadow: put .ht-shadow behind an element with the same silhouette */
+.halftone{background-image:radial-gradient(var(--shadow) 2.6px,transparent 3px);background-size:9px 9px}
+
+/* header row */
+#hdr{position:absolute;left:84px;right:84px;top:104px;height:40px;z-index:40;font-family:JBM;font-size:25px;letter-spacing:.02em;color:var(--dim);display:flex;justify-content:space-between}
+#hdr .hud b{color:var(--accent);font-weight:700}
+/* captions */
+#caps{position:absolute;left:84px;top:170px;width:880px;z-index:45;font-family:Inter;font-weight:680;font-size:74px;line-height:1.1;letter-spacing:-.025em;color:var(--ink)}
+.cap-phrase{position:absolute;left:0;top:0;width:880px}
+.cap-w{display:inline-block;will-change:transform,opacity;transform-origin:0 80%}
+.cap-w.accent{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-size:88px;letter-spacing:-.01em;color:var(--accent);line-height:.9}
+/* cards (UI building blocks) */
+.card{position:absolute;background:var(--card);color:var(--cardInk);border-radius:28px;box-shadow:0 30px 60px -20px rgba(0,0,0,.45),0 2px 0 rgba(255,255,255,.6) inset;padding:30px 34px;font-family:Inter}
+.card .lbl{font-family:JBM;font-size:22px;color:#8C8697;letter-spacing:.02em;margin-bottom:12px}
+.card .big{font-weight:750;font-size:50px;letter-spacing:-.03em;line-height:1.08}
+.card em{font-family:'Instrument Serif';font-style:italic;font-weight:400;color:#E0663A;font-size:1.12em}
+.pill{position:absolute;border-radius:999px;font-family:Inter;font-weight:700;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.stamp{position:absolute;font-family:'Instrument Serif';font-style:italic;color:#E0533A;border:5px solid #E0533A;border-radius:50%;padding:8px 26px;font-size:64px;transform-origin:50% 50%}
+canvas.fx{position:absolute;inset:0;z-index:60;pointer-events:none}
+@font-face{font-family:Poppins;src:url(../fonts/Poppins-Bold.ttf);font-weight:700}
+@font-face{font-family:Poppins;src:url(../fonts/Poppins-SemiBold.ttf);font-weight:600}

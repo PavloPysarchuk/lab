@@ -1,0 +1,89 @@
+{
+ "stats": {
+  "creator": "mantalks",
+  "reels_scanned": 222,
+  "p25": 19000,
+  "median": 37300,
+  "p75": 78100,
+  "p90": 252000,
+  "max": 5500000,
+  "masterpieces": 12,
+  "note": "capped ~220 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:01:14.084Z"
+ },
+ "picks": [
+  [
+   "DKPzuXnyhG0",
+   5500000,
+   168.7,
+   32600
+  ],
+  [
+   "DGg062hSW2f",
+   1900000,
+   47.5,
+   40000
+  ],
+  [
+   "DM-nmePOUdh",
+   898000,
+   26.6,
+   33700
+  ],
+  [
+   "DOtvssnkukO",
+   859000,
+   11.9,
+   72100
+  ],
+  [
+   "DMdMIZ6gs_e",
+   759000,
+   22,
+   34500
+  ],
+  [
+   "DWTMqhiAVjQ",
+   647000,
+   21.6,
+   29900
+  ],
+  [
+   "DGLudXUzbV8",
+   590000,
+   13.8,
+   42700
+  ],
+  [
+   "Da6OxB7yRK3",
+   507000,
+   14.3,
+   35400
+  ],
+  [
+   "DVDHo4njgeO",
+   494000,
+   23.4,
+   21100
+  ],
+  [
+   "DI4X-bpzUo0",
+   369000,
+   12.3,
+   30000
+  ],
+  [
+   "DTniL4fjolQ",
+   333000,
+   11.1,
+   30000
+  ],
+  [
+   "DWQ32K7E4Gy",
+   319000,
+   15.1,
+   21100
+  ]
+ ]
+}

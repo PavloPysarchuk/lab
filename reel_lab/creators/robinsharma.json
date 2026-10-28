@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "robinsharma",
+  "reels_scanned": 318,
+  "p25": 50900,
+  "median": 83200,
+  "p75": 326000,
+  "p90": 729000,
+  "max": 28100000,
+  "masterpieces": 10,
+  "note": "capped ~320 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:53:37.061Z"
+ },
+ "picks": [
+  [
+   "DKEvgzhh6kh",
+   28100000,
+   42.8,
+   657000
+  ],
+  [
+   "C_lKwTwsCzJ",
+   4900000,
+   44.5,
+   110000
+  ],
+  [
+   "DMii3F8oAaF",
+   3500000,
+   40.9,
+   85600
+  ],
+  [
+   "C_8Els1sT3r",
+   2300000,
+   18.5,
+   124000
+  ],
+  [
+   "C8EopvxOlMR",
+   2100000,
+   21.8,
+   96200
+  ],
+  [
+   "C74XS4fsZlA",
+   1500000,
+   15,
+   100000
+  ],
+  [
+   "Dam8f5guDSV",
+   1300000,
+   25.7,
+   50600
+  ],
+  [
+   "C7vueqtODxN",
+   1000000,
+   10,
+   100000
+  ],
+  [
+   "DO4BYFLDOE7",
+   991000,
+   10.7,
+   92600
+  ],
+  [
+   "DTZxkwGjPM7",
+   974000,
+   13.6,
+   71600
+  ]
+ ]
+}

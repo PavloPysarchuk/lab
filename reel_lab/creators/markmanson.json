@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "markmanson",
+  "reels_scanned": 354,
+  "p25": 112000,
+  "median": 190000,
+  "p75": 324000,
+  "p90": 713000,
+  "max": 3500000,
+  "masterpieces": 10,
+  "note": "capped ~350 recent; 4 at 10x -> 4x tier, top 10 kept",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:55:29.255Z"
+ },
+ "picks": [
+  [
+   "DZPs_--gWQr",
+   3500000,
+   16.8,
+   208000
+  ],
+  [
+   "DYP-hV6AvFy",
+   2300000,
+   13.1,
+   175000
+  ],
+  [
+   "DXwtw8wuR8z",
+   2200000,
+   10,
+   221000
+  ],
+  [
+   "DXSg9cXiZR9",
+   1900000,
+   10.4,
+   183000
+  ],
+  [
+   "DYK0l-FhtIT",
+   1800000,
+   7.3,
+   246000
+  ],
+  [
+   "DY8RiQBEllQ",
+   1700000,
+   7.6,
+   225000
+  ],
+  [
+   "Da_A2t7SjV-",
+   1500000,
+   8.3,
+   181000
+  ],
+  [
+   "DYnVhokhc3n",
+   1400000,
+   8.8,
+   160000
+  ],
+  [
+   "DYVhVoPAWr_",
+   1400000,
+   8,
+   175000
+  ],
+  [
+   "DZqapYDkZED",
+   1300000,
+   8.1,
+   161000
+  ]
+ ]
+}

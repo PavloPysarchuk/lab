@@ -1,0 +1,95 @@
+{
+ "stats": {
+  "creator": "jonacuff",
+  "reels_scanned": 468,
+  "p25": 6928,
+  "median": 10900,
+  "p75": 19600,
+  "p90": 33100,
+  "max": 1100000,
+  "masterpieces": 13,
+  "note": "capped ~450 recent of 11517 posts",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:22:31.661Z"
+ },
+ "picks": [
+  [
+   "DDKzEEuyuLI",
+   1100000,
+   77.5,
+   14200
+  ],
+  [
+   "DPHUq_9j8kf",
+   588000,
+   54.4,
+   10800
+  ],
+  [
+   "DctMGEph2o5",
+   439000,
+   29.3,
+   15000
+  ],
+  [
+   "DNI99nMNj2V",
+   389000,
+   28.4,
+   13700
+  ],
+  [
+   "DL-MKhlM7FM",
+   343000,
+   25.4,
+   13500
+  ],
+  [
+   "DP7ETnJEo6C",
+   325000,
+   31.3,
+   10400
+  ],
+  [
+   "DcG6d2BBAZu",
+   322000,
+   22.2,
+   14500
+  ],
+  [
+   "DUE5AKDk_7h",
+   293000,
+   36.6,
+   8004
+  ],
+  [
+   "C_YCs5PSaNk",
+   254000,
+   22.9,
+   11100
+  ],
+  [
+   "DVyfvBSk6Do",
+   249000,
+   22.8,
+   10900
+  ],
+  [
+   "DRKmDvyEc5h",
+   199000,
+   17.5,
+   11400
+  ],
+  [
+   "DUmUUJUE9UG",
+   135000,
+   16.9,
+   8004
+  ],
+  [
+   "DTvfr50E2lz",
+   85800,
+   10,
+   8612
+  ]
+ ]
+}

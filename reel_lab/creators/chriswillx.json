@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "chriswillx",
+  "reels_scanned": 294,
+  "p25": 304000,
+  "median": 491000,
+  "p75": 872000,
+  "p90": 1700000,
+  "max": 13400000,
+  "masterpieces": 10,
+  "note": "capped ~290 recent; 3 at 10x -> 4x tier, top 10 kept",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:59:42.108Z"
+ },
+ "picks": [
+  [
+   "C6l1TKnOPWj",
+   13400000,
+   39,
+   344000
+  ],
+  [
+   "DaS1s0Ixr4X",
+   6400000,
+   11.9,
+   538000
+  ],
+  [
+   "DZc1kysR4IK",
+   4200000,
+   10,
+   420000
+  ],
+  [
+   "DauwYhASdXm",
+   4100000,
+   5.8,
+   711000
+  ],
+  [
+   "DZ8Vf0bPAc_",
+   3800000,
+   6.4,
+   596000
+  ],
+  [
+   "DZYEjARpZOQ",
+   3700000,
+   8.8,
+   420000
+  ],
+  [
+   "Db9EWjVhd2r",
+   3400000,
+   6,
+   565000
+  ],
+  [
+   "DanoR-TOVVW",
+   3400000,
+   4.8,
+   711000
+  ],
+  [
+   "DZuu2pcRGAN",
+   3300000,
+   5.5,
+   596000
+  ],
+  [
+   "DZKwX0psIl4",
+   3100000,
+   7.7,
+   405000
+  ]
+ ]
+}

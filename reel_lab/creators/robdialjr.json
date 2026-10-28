@@ -1,0 +1,53 @@
+{
+ "stats": {
+  "creator": "robdialjr",
+  "reels_scanned": 468,
+  "p25": 58100,
+  "median": 97300,
+  "p75": 158000,
+  "p90": 299000,
+  "max": 11300000,
+  "masterpieces": 6,
+  "note": "capped ~450 recent of 11901 posts; top 3 likely pinned",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:25:16.661Z"
+ },
+ "picks": [
+  [
+   "CnSQdZNBV0E",
+   11300000,
+   179.4,
+   63000
+  ],
+  [
+   "Cs3uscuv7f_",
+   5100000,
+   81,
+   63000
+  ],
+  [
+   "Co5YSUzPtNS",
+   4900000,
+   77.8,
+   63000
+  ],
+  [
+   "DY2tEpOGSsK",
+   1700000,
+   11.9,
+   143000
+  ],
+  [
+   "DY-9ytnDxvZ",
+   1300000,
+   15,
+   86900
+  ],
+  [
+   "DZN4LiBjTXe",
+   1000000,
+   12.8,
+   78200
+  ]
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "brendonburchard",
+  "reels_scanned": 288,
+  "p25": 9969,
+  "median": 13000,
+  "p75": 17700,
+  "p90": 26200,
+  "max": 845000,
+  "masterpieces": 10,
+  "note": "capped ~290 recent; 4 at 10x -> 4x tier",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:45:11.072Z"
+ },
+ "picks": [
+  [
+   "DYDOb9-toWv",
+   845000,
+   83.7,
+   10100
+  ],
+  [
+   "DNTfmFtJeKC",
+   627000,
+   34.6,
+   18100
+  ],
+  [
+   "DMsud2gvUvX",
+   251000,
+   13.6,
+   18500
+  ],
+  [
+   "DL5xjIOzz66",
+   189000,
+   10.2,
+   18500
+  ],
+  [
+   "DSaw-IekX7E",
+   85400,
+   5.2,
+   16300
+  ],
+  [
+   "DMJRdBmB0sc",
+   84900,
+   4.6,
+   18500
+  ],
+  [
+   "DUgSkq8lp5E",
+   83700,
+   5.2,
+   16000
+  ],
+  [
+   "DUjDV0pgSAq",
+   76100,
+   4.8,
+   16000
+  ],
+  [
+   "DT0vTpyDuzu",
+   75300,
+   4.3,
+   17700
+  ],
+  [
+   "DYK1NMMhv6s",
+   41200,
+   4,
+   10300
+  ]
+ ]
+}

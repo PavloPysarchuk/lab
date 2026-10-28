@@ -1,0 +1,83 @@
+{
+ "stats": {
+  "creator": "drscottlyons",
+  "reels_scanned": 216,
+  "p25": 10200,
+  "median": 17600,
+  "p75": 32000,
+  "p90": 79900,
+  "max": 438000,
+  "masterpieces": 11,
+  "note": "capped ~220 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:02:47.232Z"
+ },
+ "picks": [
+  [
+   "DBPt5GySvoE",
+   438000,
+   38.1,
+   11500
+  ],
+  [
+   "DFIjyS6RCCu",
+   387000,
+   30,
+   12900
+  ],
+  [
+   "DFNt3ePxYvG",
+   327000,
+   25.3,
+   12900
+  ],
+  [
+   "C7Rm2pMsWgC",
+   297000,
+   22.5,
+   13200
+  ],
+  [
+   "DA6F0A-x9G3",
+   177000,
+   16.5,
+   10700
+  ],
+  [
+   "DBKK7LTAM6c",
+   144000,
+   12.5,
+   11500
+  ],
+  [
+   "C9hy73ER7PB",
+   136000,
+   11.6,
+   11700
+  ],
+  [
+   "C9pgzXbRv4h",
+   130000,
+   11.1,
+   11700
+  ],
+  [
+   "C7UW4VFpYM_",
+   129000,
+   10.4,
+   12400
+  ],
+  [
+   "C_s9FasRrvz",
+   119000,
+   10.1,
+   11800
+  ],
+  [
+   "C4x-oAkrnqo",
+   106000,
+   10.4,
+   10200
+  ]
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "stats": {
+  "creator": "trish_blackwell",
+  "reels_scanned": 96,
+  "p25": 2282,
+  "median": 3629,
+  "p75": 6137,
+  "p90": 16100,
+  "max": 112000,
+  "masterpieces": 5,
+  "note": "~100 recent (older are tiny); small-account outliers, top 5 kept",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T01:07:02.241Z"
+ },
+ "picks": [
+  [
+   "DaBVaocIypF",
+   112000,
+   20.3,
+   5524
+  ],
+  [
+   "DcwwC_HIuug",
+   52100,
+   13.9,
+   3741
+  ],
+  [
+   "DYftV--ROKn",
+   44000,
+   14.4,
+   3057
+  ],
+  [
+   "DZNnqIcxGEy",
+   35500,
+   7.1,
+   5000
+  ],
+  [
+   "DXcdrZ4kVIc",
+   28800,
+   16.7,
+   1729
+  ]
+ ]
+}

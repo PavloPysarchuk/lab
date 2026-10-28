@@ -1,0 +1,77 @@
+{
+ "stats": {
+  "creator": "tonyrobbins",
+  "reels_scanned": 444,
+  "p25": 213000,
+  "median": 362000,
+  "p75": 676000,
+  "p90": 1400000,
+  "max": 19400000,
+  "masterpieces": 10,
+  "note": "capped ~450 recent",
+  "rule": "views>=10x local median (+-15 reels) AND views>=creator p75; max 60",
+  "scanned_at": "2026-09-24T00:43:20.453Z"
+ },
+ "picks": [
+  [
+   "DRNiG76kRSC",
+   19400000,
+   80.2,
+   242000
+  ],
+  [
+   "DRuu_BQkXY7",
+   14900000,
+   56,
+   266000
+  ],
+  [
+   "DSD2oH8kdSb",
+   13100000,
+   65.5,
+   200000
+  ],
+  [
+   "DOOvfS2jAwp",
+   9000000,
+   37.2,
+   242000
+  ],
+  [
+   "DVt_vU6kdDA",
+   8200000,
+   17.5,
+   469000
+  ],
+  [
+   "DR2mWbIkdUJ",
+   8000000,
+   26.1,
+   307000
+  ],
+  [
+   "DcjJs4MzLe9",
+   7600000,
+   22,
+   346000
+  ],
+  [
+   "DZP0QSWxvg1",
+   5800000,
+   14,
+   414000
+  ],
+  [
+   "DOY5cXPiVvw",
+   3600000,
+   13.7,
+   262000
+  ],
+  [
+   "DYZ7IVWyJLf",
+   3200000,
+   10.2,
+   314000
+  ]
+ ]
+}

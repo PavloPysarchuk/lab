@@ -1,5 +1,12 @@
-# ---- model weights: never commit ----
+# ================= lab .gitignore =================
+# Versioned: code, notebooks, scripts, docs, small brand/rig assets.
+# NOT versioned: models/weights, venvs, generated media, caches, secrets.
+
+# ---- model weights / checkpoints: never commit ----
 models/
+**/models/
+checkpoints/
+**/checkpoints/
 *.pth
 *.pt
 *.bin
@@ -7,11 +14,29 @@ models/
 *.ckpt
 *.onnx
 *.gguf
+*.ggml
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.tflite
+*.mlmodel
+*.engine
+*.lfs
+.cache/
+**/huggingface/
+**/hf_cache/
+**/.hf_cache/
+**/torch_cache/
 
 # ---- audio: generated output and voice samples ----
 # Voice recordings are biometric data. Keep them out of git.
 out/
 out[0-9]/
+output/
+outputs/
 voice_samples/
 *.wav
 *.mp3
@@ -19,21 +44,98 @@ voice_samples/
 *.flac
 *.ogg
 *.opus
+*.aac
+
+# ---- video ----
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.m4v
 
 # ---- generated comparison pages (several MB each, audio embedded) ----
 compare*.html
 
-# ---- python ----
+# ---- python / envs ----
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .venv/
 venv/
 env/
+.env/
+site-packages/
+vendor/
 
 # ---- logs and scratch ----
 *.log
+logs/
 *.tmp
 tmp/
+*.bak
+*.bak_*
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.lock
+gpu*.lock
 
+# ---- OS junk ----
 .DS_Store
+__MACOSX/
+Thumbs.db
+
+# ---- secrets ----
+.env
+.env.*
+*.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*.json
+*credentials*
+*secret*
+*token*.json
+cookies*.txt
+cookies*.json
+*.cookies
+.netrc
+
+# ---- animated_content: heavy / generated ----
+animated_content/.venv/
+animated_content/.browsers/
+animated_content/bin/
+animated_content/tmp/
+animated_content/work/
+animated_content/out/
+animated_content/inbox/
+animated_content/ref/
+animated_content/qa/
+animated_content/logs/
+**/frames/
+**/segments/
+**/render_cache/
+
+# brand assets are needed to render: keep small brand clips (<5 MB)
+!animated_content/brand/**/*.mp4
+!animated_content/studio/brand/**/*.mp4
+animated_content/brand/storytime/offline_v2.mp4
+animated_content/studio/brand/storytime/offline_v2.mp4
+
+# ---- TonyRobins: purchased course media and workbooks (copyrighted, ~24 GB) ----
+TonyRobins/**/*.pdf
+
+# ---- reel_lab / media_lab: downloaded reels, keyframes, outputs ----
+reel_lab/data/**/*.jpg
+reel_lab/data/**/*.jpeg
+reel_lab/data/**/*.png
+media_lab/out/
+media_lab/vendor/
+media_lab/jobs/
+
+# ---- large notebooks (embedded audio outputs) ----
+# TTS/01_preset_voices.ipynb is ~34 MB on disk; its changes are kept out of commits.
+TonyRobins/

@@ -1,0 +1,716 @@
+{
+ "modules": [
+  {
+   "name": "hook1",
+   "kind": "hook",
+   "t0": 0.0,
+   "dur": 2.409,
+   "vo": "vo/hook1.wav",
+   "next": 2.509
+  },
+  {
+   "name": "midA",
+   "kind": "mid",
+   "t0": 2.509,
+   "dur": 17.988,
+   "vo": "vo/midA.wav",
+   "next": 20.677
+  },
+  {
+   "name": "cta1",
+   "kind": "cta",
+   "t0": 20.677,
+   "dur": 2.08,
+   "vo": "vo/cta1.wav",
+   "next": 24.107
+  }
+ ],
+ "tokens": [
+  {
+   "w": "You're",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.0,
+   "e": 0.16,
+   "module": "hook1"
+  },
+  {
+   "w": "not",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.16,
+   "e": 0.4,
+   "module": "hook1"
+  },
+  {
+   "w": "lazy.",
+   "accent": false,
+   "phrase": 0,
+   "beat": "hook",
+   "s": 0.4,
+   "e": 0.8,
+   "module": "hook1"
+  },
+  {
+   "w": "You're",
+   "accent": false,
+   "phrase": 1,
+   "beat": "hook",
+   "s": 0.8,
+   "e": 0.96,
+   "module": "hook1"
+  },
+  {
+   "w": "losing",
+   "accent": false,
+   "phrase": 1,
+   "beat": "hook",
+   "s": 0.96,
+   "e": 1.44,
+   "module": "hook1"
+  },
+  {
+   "w": "a",
+   "accent": false,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.44,
+   "e": 1.5,
+   "module": "hook1"
+  },
+  {
+   "w": "weighing",
+   "accent": true,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.44,
+   "e": 1.76,
+   "module": "hook1"
+  },
+  {
+   "w": "contest.",
+   "accent": false,
+   "phrase": 2,
+   "beat": "hook",
+   "s": 1.76,
+   "e": 2.32,
+   "module": "hook1"
+  },
+  {
+   "w": "Every",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 2.509,
+   "e": 2.829,
+   "module": "midA"
+  },
+  {
+   "w": "hard",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 2.829,
+   "e": 3.229,
+   "module": "midA"
+  },
+  {
+   "w": "thing",
+   "accent": false,
+   "phrase": 3,
+   "beat": "b1",
+   "s": 3.229,
+   "e": 3.389,
+   "module": "midA"
+  },
+  {
+   "w": "has",
+   "accent": false,
+   "phrase": 4,
+   "beat": "b1",
+   "s": 3.389,
+   "e": 3.709,
+   "module": "midA"
+  },
+  {
+   "w": "two",
+   "accent": false,
+   "phrase": 4,
+   "beat": "b1",
+   "s": 3.709,
+   "e": 3.949,
+   "module": "midA"
+  },
+  {
+   "w": "pains.",
+   "accent": false,
+   "phrase": 4,
+   "beat": "b1",
+   "s": 3.949,
+   "e": 4.429,
+   "module": "midA"
+  },
+  {
+   "w": "The",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 4.749,
+   "e": 4.829,
+   "module": "midA"
+  },
+  {
+   "w": "pain",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 4.829,
+   "e": 5.229,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 5.229,
+   "e": 5.389,
+   "module": "midA"
+  },
+  {
+   "w": "doing",
+   "accent": true,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 5.389,
+   "e": 5.709,
+   "module": "midA"
+  },
+  {
+   "w": "it.",
+   "accent": false,
+   "phrase": 5,
+   "beat": "b1",
+   "s": 5.709,
+   "e": 5.949,
+   "module": "midA"
+  },
+  {
+   "w": "And",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 6.029,
+   "e": 6.189,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 6.189,
+   "e": 6.269,
+   "module": "midA"
+  },
+  {
+   "w": "pain",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 6.269,
+   "e": 6.509,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 6,
+   "beat": "b1",
+   "s": 6.509,
+   "e": 6.669,
+   "module": "midA"
+  },
+  {
+   "w": "everything",
+   "accent": false,
+   "phrase": 7,
+   "beat": "b1",
+   "s": 6.669,
+   "e": 7.309,
+   "module": "midA"
+  },
+  {
+   "w": "staying",
+   "accent": false,
+   "phrase": 7,
+   "beat": "b1",
+   "s": 7.309,
+   "e": 7.789,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": true,
+   "phrase": 8,
+   "beat": "b1",
+   "s": 7.789,
+   "e": 7.869,
+   "module": "midA"
+  },
+  {
+   "w": "same.",
+   "accent": true,
+   "phrase": 8,
+   "beat": "b1",
+   "s": 7.869,
+   "e": 8.349,
+   "module": "midA"
+  },
+  {
+   "w": "Right",
+   "accent": false,
+   "phrase": 9,
+   "beat": "b2",
+   "s": 8.829,
+   "e": 8.989,
+   "module": "midA"
+  },
+  {
+   "w": "now,",
+   "accent": false,
+   "phrase": 9,
+   "beat": "b2",
+   "s": 9.069,
+   "e": 9.309,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 9.309,
+   "e": 9.389,
+   "module": "midA"
+  },
+  {
+   "w": "first",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 9.389,
+   "e": 9.789,
+   "module": "midA"
+  },
+  {
+   "w": "one",
+   "accent": false,
+   "phrase": 10,
+   "beat": "b2",
+   "s": 9.789,
+   "e": 9.949,
+   "module": "midA"
+  },
+  {
+   "w": "feels",
+   "accent": false,
+   "phrase": 11,
+   "beat": "b2",
+   "s": 9.949,
+   "e": 10.189,
+   "module": "midA"
+  },
+  {
+   "w": "heavier.",
+   "accent": false,
+   "phrase": 11,
+   "beat": "b2",
+   "s": 10.189,
+   "e": 10.749,
+   "module": "midA"
+  },
+  {
+   "w": "So",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 10.749,
+   "e": 10.989,
+   "module": "midA"
+  },
+  {
+   "w": "you",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 10.989,
+   "e": 11.069,
+   "module": "midA"
+  },
+  {
+   "w": "scroll.",
+   "accent": false,
+   "phrase": 12,
+   "beat": "b2",
+   "s": 11.069,
+   "e": 11.709,
+   "module": "midA"
+  },
+  {
+   "w": "You",
+   "accent": false,
+   "phrase": 13,
+   "beat": "b2",
+   "s": 11.789,
+   "e": 11.949,
+   "module": "midA"
+  },
+  {
+   "w": "wait.",
+   "accent": false,
+   "phrase": 13,
+   "beat": "b2",
+   "s": 11.949,
+   "e": 12.269,
+   "module": "midA"
+  },
+  {
+   "w": "You",
+   "accent": false,
+   "phrase": 14,
+   "beat": "b2",
+   "s": 12.429,
+   "e": 12.509,
+   "module": "midA"
+  },
+  {
+   "w": "plan.",
+   "accent": false,
+   "phrase": 14,
+   "beat": "b2",
+   "s": 12.509,
+   "e": 13.069,
+   "module": "midA"
+  },
+  {
+   "w": "Here",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3",
+   "s": 13.229,
+   "e": 13.469,
+   "module": "midA"
+  },
+  {
+   "w": "is",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3",
+   "s": 13.469,
+   "e": 13.549,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3",
+   "s": 13.549,
+   "e": 13.629,
+   "module": "midA"
+  },
+  {
+   "w": "thing.",
+   "accent": false,
+   "phrase": 15,
+   "beat": "b3",
+   "s": 13.629,
+   "e": 14.029,
+   "module": "midA"
+  },
+  {
+   "w": "You",
+   "accent": false,
+   "phrase": 16,
+   "beat": "b3",
+   "s": 14.349,
+   "e": 14.429,
+   "module": "midA"
+  },
+  {
+   "w": "move",
+   "accent": false,
+   "phrase": 16,
+   "beat": "b3",
+   "s": 14.429,
+   "e": 14.749,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3",
+   "s": 14.749,
+   "e": 14.829,
+   "module": "midA"
+  },
+  {
+   "w": "moment",
+   "accent": false,
+   "phrase": 17,
+   "beat": "b3",
+   "s": 14.829,
+   "e": 15.229,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 18,
+   "beat": "b3",
+   "s": 15.229,
+   "e": 15.309,
+   "module": "midA"
+  },
+  {
+   "w": "second",
+   "accent": false,
+   "phrase": 18,
+   "beat": "b3",
+   "s": 15.309,
+   "e": 15.709,
+   "module": "midA"
+  },
+  {
+   "w": "pain",
+   "accent": false,
+   "phrase": 18,
+   "beat": "b3",
+   "s": 15.709,
+   "e": 15.869,
+   "module": "midA"
+  },
+  {
+   "w": "gets",
+   "accent": false,
+   "phrase": 19,
+   "beat": "b3",
+   "s": 15.869,
+   "e": 16.029,
+   "module": "midA"
+  },
+  {
+   "w": "bigger.",
+   "accent": true,
+   "phrase": 19,
+   "beat": "b3",
+   "s": 16.029,
+   "e": 16.429,
+   "module": "midA"
+  },
+  {
+   "w": "So",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 16.429,
+   "e": 16.669,
+   "module": "midA"
+  },
+  {
+   "w": "stop",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 16.669,
+   "e": 17.149,
+   "module": "midA"
+  },
+  {
+   "w": "pumping",
+   "accent": false,
+   "phrase": 20,
+   "beat": "b4",
+   "s": 17.149,
+   "e": 17.389,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 21,
+   "beat": "b4",
+   "s": 17.389,
+   "e": 17.469,
+   "module": "midA"
+  },
+  {
+   "w": "dream",
+   "accent": false,
+   "phrase": 21,
+   "beat": "b4",
+   "s": 17.469,
+   "e": 17.789,
+   "module": "midA"
+  },
+  {
+   "w": "board.",
+   "accent": false,
+   "phrase": 21,
+   "beat": "b4",
+   "s": 17.789,
+   "e": 18.189,
+   "module": "midA"
+  },
+  {
+   "w": "Make",
+   "accent": false,
+   "phrase": 22,
+   "beat": "b4",
+   "s": 18.509,
+   "e": 18.749,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 22,
+   "beat": "b4",
+   "s": 18.749,
+   "e": 18.829,
+   "module": "midA"
+  },
+  {
+   "w": "cost",
+   "accent": false,
+   "phrase": 22,
+   "beat": "b4",
+   "s": 18.829,
+   "e": 19.229,
+   "module": "midA"
+  },
+  {
+   "w": "of",
+   "accent": false,
+   "phrase": 23,
+   "beat": "b4",
+   "s": 19.229,
+   "e": 19.309,
+   "module": "midA"
+  },
+  {
+   "w": "staying",
+   "accent": false,
+   "phrase": 23,
+   "beat": "b4",
+   "s": 19.309,
+   "e": 19.709,
+   "module": "midA"
+  },
+  {
+   "w": "the",
+   "accent": false,
+   "phrase": 23,
+   "beat": "b4",
+   "s": 19.709,
+   "e": 19.769,
+   "module": "midA"
+  },
+  {
+   "w": "same",
+   "accent": false,
+   "phrase": 23,
+   "beat": "b4",
+   "s": 19.709,
+   "e": 20.109,
+   "module": "midA"
+  },
+  {
+   "w": "vivid.",
+   "accent": true,
+   "phrase": 24,
+   "beat": "b4",
+   "s": 20.109,
+   "e": 20.429,
+   "module": "midA"
+  },
+  {
+   "w": "Follow",
+   "accent": false,
+   "phrase": 25,
+   "beat": "cta",
+   "s": 20.677,
+   "e": 20.997,
+   "module": "cta1"
+  },
+  {
+   "w": "me,",
+   "accent": false,
+   "phrase": 25,
+   "beat": "cta",
+   "s": 20.997,
+   "e": 21.317,
+   "module": "cta1"
+  },
+  {
+   "w": "and",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 21.317,
+   "e": 21.477,
+   "module": "cta1"
+  },
+  {
+   "w": "let's",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 21.477,
+   "e": 21.717,
+   "module": "cta1"
+  },
+  {
+   "w": "make",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 21.717,
+   "e": 21.877,
+   "module": "cta1"
+  },
+  {
+   "w": "it",
+   "accent": false,
+   "phrase": 26,
+   "beat": "cta",
+   "s": 21.877,
+   "e": 21.957,
+   "module": "cta1"
+  },
+  {
+   "w": "a",
+   "accent": false,
+   "phrase": 27,
+   "beat": "cta",
+   "s": 21.957,
+   "e": 22.037,
+   "module": "cta1"
+  },
+  {
+   "w": "must.",
+   "accent": true,
+   "phrase": 27,
+   "beat": "cta",
+   "s": 22.037,
+   "e": 22.437,
+   "module": "cta1"
+  }
+ ],
+ "duration": 23.107,
+ "name": "hook1_midA_cta1"
+}
